@@ -1,0 +1,82 @@
+/* App.css */
+.weather-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.4s ease;
+  padding: 20px;
+}
+
+/* Weather boxes */
+.weather-box {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.weather-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.input-box {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.weather-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.weather-result p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+/* Backgrounds for each weather condition */
+.sunny {
+  background: linear-gradient(to bottom, #f9d423, #ff4e50);
+  color: #fff;
+}
+
+.cloudy {
+  background: linear-gradient(to bottom, #757f9a, #d7dde8);
+  color: #fff;
+}
+
+.rainy {
+  background: linear-gradient(to bottom, #2c3e50, #3498db);
+  color: #fff;
+}
+
+.snowy {
+  background: linear-gradient(to bottom, #e6f0ff, #99ccff);
+  color: #000;
+}
+
+.foggy {
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+  color: #fff;
+}
+
+.default {
+  background: linear-gradient(to bottom, #00c6ff, #0072ff);
+  color: #fff;
+}
